@@ -39,7 +39,7 @@ npm i storage-encryption
     * **decryptObject**(storage_key): JSON Object
     * **encryptString**(storage_key, data): void
     * **decryptString**(storage_key): string
-    * **removeElement**(storage_key): void
+    * **remove**(storage_key): void
 
 ## Encrypt Local/Session Storage (For Typescript)
 
