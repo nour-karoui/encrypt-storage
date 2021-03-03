@@ -26,14 +26,12 @@
   <component name="ChangeListManager">
     <list default="true" id="a125c56c-eabc-4141-813a-a856c8b02492" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/encrypt-storage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/encrypt-storage.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/encrypt-storage.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/encrypt-storage.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/encrypt-storage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/encrypt-storage.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.js.map" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +80,7 @@
       <workItem from="1614110371412" duration="5940000" />
       <workItem from="1614714923272" duration="612000" />
       <workItem from="1614759026174" duration="3029000" />
-      <workItem from="1614779365133" duration="2591000" />
+      <workItem from="1614779365133" duration="2939000" />
     </task>
     <servers />
   </component>
