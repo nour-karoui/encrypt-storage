@@ -1,5 +1,5 @@
 {
-  "name": "@storage-encryption/storage-encryption",
+  "name": "storage-encryption",
   "version": "1.0.3",
   "description": "",
   "main": "./build/index.js",
@@ -10,7 +10,7 @@
   "scripts": {
     "clean": "del .\\build\\*",
     "build": "npm run clean && tsc",
-    "pub": "git add . && git commit -m \"Updates\" && git push && npm version patch && npm run build && npm publish"
+    "pub": "git add . && git commit -m \"Updates\" && git push origin main && npm version patch && npm run build && npm publish"
   },
   "keywords": [
     "localStorage",
