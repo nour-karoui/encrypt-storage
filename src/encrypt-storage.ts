@@ -13,6 +13,7 @@ export class EncryptStorage {
         const dataString = JSON.stringify(data);
         const encryptedData = Crypto.AES.encrypt(dataString, this.secret);
         this.storage?.setItem(key, encryptedData.toString());
+        console.log(encryptedData);
     }
 
     encryptString(key: string, data: string) {
