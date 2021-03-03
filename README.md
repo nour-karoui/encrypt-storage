@@ -24,7 +24,7 @@
 ## Install
 
 ```sh
-npm i @storage-encryption/storage-encryption
+npm i storage-encryption
 ```
 
 ## How it works
@@ -49,12 +49,12 @@ import {EncryptStorage} from '@storage-encryption/storage-encryption';
 // the constructor takes the secret key as a first parameter and an optional
 // second parameter as the storage type
 // if none is provided it'll be localStorage by default
-const encryptStorage = new EncryptStorage(SECRET_KEY);
+const encryptStorage = new EncryptStorage(SECRET_KEY, 'sessionStorage');
 encryptStorage.encryptObject('storage_key', {first: 'hello world'});
-const storedObjectValue = encryptStorage.decryptObject('storage_key');
+const objectValue = encryptStorage.decryptObject('storage_key');
 
 encryptStorage.encryptString('storage_key', 'Hello world');
-const storedStringValue = encryptStorage.decryptString('storage_key');
+const stringValue = encryptStorage.decryptString('storage_key');
 
 encryptStorage.removeElement('storage_key');    
 ```
@@ -63,17 +63,17 @@ encryptStorage.removeElement('storage_key');
 ```js
 const { EncryptStorage } = require('@storage-encryption/storage-encryption')
 
-const encryptStorage = new EncryptStorage(SECRET_KEY);
+const encryptStorage = new EncryptStorage(SECRET_KEY, 'localStorage');
 encryptStorage.encryptObject('storage_key', {first: 'hello world'});
-const storedValue = encryptStorage.decryptObject('storage_key');
+const objectValue = encryptStorage.decryptObject('storage_key');
 
 encryptStorage.encryptString('storage_key', 'Hello world');
-const storedValue = encryptStorage.decryptObject('storage_key');
+const stringValue = encryptStorage.decryptObject('storage_key');
 
 encryptStorage.removeElement('storage_key'); 
 ```
 
-## BETTER WAY TO DO IT
+## A BETTER WAY TO DO IT
 * **Instantiate the encryptStorage object in a shared folder and export it**
 * **So you won't have to instantiate it in each file**
 
@@ -98,12 +98,6 @@ Contributions, issues and feature requests are welcome!<br />Feel free to check 
 ## Show your support
 
 Give a STAR if this project helped you!
-
-## Source of the data
-
-* All thanks to HIBP API.
-* Their API provides 613,584,246 real world passwords previously exposed in data breaches.
-
 
 ## 📝 License
 
