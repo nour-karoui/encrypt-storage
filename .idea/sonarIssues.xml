@@ -68,6 +68,31 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../../microservices/ticketing/common/package.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../microservices/ticketing/common/src/events/types/order_status.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../microservices/ticketing/common/src/index.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../microservices/ticketing/orders/src/models/order.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../microservices/ticketing/orders/src/models/ticket.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$USER_HOME$/Downloads/README.md">
           <value>
             <set />
