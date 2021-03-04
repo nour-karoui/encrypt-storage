@@ -51,7 +51,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -76,7 +76,8 @@
       <workItem from="1614714923272" duration="612000" />
       <workItem from="1614759026174" duration="3029000" />
       <workItem from="1614779365133" duration="8828000" />
-      <workItem from="1614842297923" duration="2203000" />
+      <workItem from="1614842297923" duration="2949000" />
+      <workItem from="1614856833915" duration="68000" />
     </task>
     <servers />
   </component>
@@ -102,10 +103,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1614842470238">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1614847587584">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1614842470238" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1614847587584" />
     <state x="478" y="145" width="579" height="534" key="find.popup" timestamp="1614113744247">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

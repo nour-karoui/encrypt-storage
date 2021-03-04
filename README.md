@@ -31,17 +31,10 @@ npm i storage-encryption
 
 * **The constructor of EncryptedStorage takes two arguments:**
     * **secret**(required): the secret key (a string) that we'll use in the encryption
-    * **storageType**(optional): localStorage / sessionStorage.
-     storageType is localStorage by default.
+    * **storage**(optional): localStorage / sessionStorage.
+     storage is localStorage by default.
      
 * **Methods provided by encryptedStorage:**
-  * **version < 1.0.9** 
-    * **encryptObject**(storage_key: string, data: object): void
-    * **decryptObject**(storage_key: string): JSON Object
-    * **encryptString**(storage_key: string, data: string): void
-    * **decryptString**(storage_key: string): string
-    * **remove**(storage_key: string): void
-  * **version >= 1.0.9**
     * **encrypt**(storage_key: string, data: any): void
     * **decrypt**(storage_key: string): any
     * **remove**(storage_key: string): void
@@ -56,16 +49,6 @@ import {EncryptStorage} from 'storage-encryption';
 // second parameter as the storage type
 // if none is provided it'll be localStorage by default
 const encryptStorage = new EncryptStorage(SECRET_KEY, 'sessionStorage');
-/*** version < 1.0.9 ***/
-encryptStorage.encryptObject('storage_key', {first: 'hello world'});
-const objectValue = encryptStorage.decryptObject('storage_key');
-
-encryptStorage.encryptString('storage_key', 'Hello world');
-const stringValue = encryptStorage.decryptString('storage_key');
-
-encryptStorage.remove('storage_key'); 
-
-/*** version >= 1.0.9 ***/
 encryptStorage.encrypt('storage_key', 'Hello world');
 const value = encryptStorage.decrypt('storage_key');
 
@@ -77,17 +60,6 @@ encryptStorage.remove('storage_key');
 const { EncryptStorage } = require('storage-encryption')
 
 const encryptStorage = new EncryptStorage(SECRET_KEY, 'localStorage');
-
-/*** version < 1.0.9 ***/
-encryptStorage.encryptObject('storage_key', {first: 'hello world'});
-const objectValue = encryptStorage.decryptObject('storage_key');
-
-encryptStorage.encryptString('storage_key', 'Hello world');
-const stringValue = encryptStorage.decryptObject('storage_key');
-
-encryptStorage.removeElement('storage_key'); 
-
-/*** version >= 1.0.9 ***/
 encryptStorage.encrypt('storage_key', 'Hello world');
 const value = encryptStorage.decrypt('storage_key');
 
