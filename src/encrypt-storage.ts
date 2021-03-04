@@ -11,7 +11,7 @@ export class EncryptStorage {
 
     encrypt(key: string, data: any): void {
         if(typeof data === "object"){
-            data = JSON.parse(data);
+            data = JSON.stringify(data);
         } else if(typeof data === "number") {
             data = data.toString();
         } else if(typeof data !== "string") {
