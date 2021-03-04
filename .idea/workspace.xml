@@ -24,10 +24,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a125c56c-eabc-4141-813a-a856c8b02492" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/encrypt-storage.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/encrypt-storage.ts" afterDir="false" />
-    </list>
+    <list default="true" id="a125c56c-eabc-4141-813a-a856c8b02492" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,7 +73,7 @@
       <workItem from="1614714923272" duration="612000" />
       <workItem from="1614759026174" duration="3029000" />
       <workItem from="1614779365133" duration="8828000" />
-      <workItem from="1614842297923" duration="1121000" />
+      <workItem from="1614842297923" duration="1440000" />
     </task>
     <servers />
   </component>

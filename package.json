@@ -1,5 +1,5 @@
 {
-  "name": "@storage-encryption/storage-encryption",
+  "name": "storage-encryption",
   "version": "1.0.8",
   "description": "",
   "main": "./build/index.js",
