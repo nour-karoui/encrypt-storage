@@ -33,15 +33,16 @@ export class EncryptStorage {
     }
 
     decrypt(key: string): any {
+        console.log('first');
         const data = this.storage?.getItem(key);
         let decryptedData = null;
         if(data) {
             decryptedData = (Crypto.AES.decrypt(data, this.secret)).toString(Crypto.enc.Utf8);
+            console.log(decryptedData)
             try {
+                console.log('i got here')
                 decryptedData = JSON.parse(decryptedData);
-            } catch(e) {
-                console.log('data is a string');
-            }
+            } catch(e) {}
         }
         return decryptedData;
     }
