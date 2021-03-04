@@ -1,7 +1,7 @@
 <h1 align="center">Welcome to Encrypt Storage 👋</h1>
 <p>
-  <a href="https://www.npmjs.com/package/@storage-encryption/storage-encryption" target="_blank">
-    <img alt="Version" src="https://img.shields.io/npm/v/@storage-encryption/storage-encryption.svg">
+  <a href="https://www.npmjs.com/package/storage-encryption" target="_blank">
+    <img alt="Version" src="https://img.shields.io/npm/v/storage-encryption.svg">
   </a>
   <a href="https://github.com/nour-karoui/encrypt-storage#readme" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
@@ -50,7 +50,7 @@ npm i storage-encryption
 ## Encrypt Local/Session Storage (For Typescript)
 
 ```ts
-import {EncryptStorage} from '@storage-encryption/storage-encryption';
+import {EncryptStorage} from 'storage-encryption';
 
 // the constructor takes the secret key as a first parameter and an optional
 // second parameter as the storage type
@@ -74,7 +74,7 @@ encryptStorage.remove('storage_key');
 
 ## Encrypt Local/Session Storage (For Javascript)
 ```js
-const { EncryptStorage } = require('@storage-encryption/storage-encryption')
+const { EncryptStorage } = require('storage-encryption')
 
 const encryptStorage = new EncryptStorage(SECRET_KEY, 'localStorage');
 
