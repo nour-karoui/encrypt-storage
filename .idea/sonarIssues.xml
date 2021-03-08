@@ -3,12 +3,22 @@
   <component name="issues">
     <option name="index">
       <map>
+        <entry key="$PROJECT_DIR$/../angular-js/src/app/_shared/before-init.service.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../angular-js/src/app/app-routing.module.ts">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../angular-js/src/app/app.component.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../angular-js/src/app/app.module.ts">
           <value>
             <set />
           </value>

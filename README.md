@@ -1,3 +1,5 @@
+* **Encrypt your client storage available for TS & JS**
+
 <h1 align="center">Welcome to Encrypt Storage 👋</h1>
 <p>
   <a href="https://www.npmjs.com/package/storage-encryption" target="_blank">
