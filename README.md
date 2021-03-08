@@ -1,4 +1,4 @@
-* **Encrypt your client storage available for TS & JS**
+Encrypt your client storage (available for TS & JS)
 
 <h1 align="center">Welcome to Encrypt Storage 👋</h1>
 <p>
