@@ -1,7 +1,7 @@
 {
   "name": "storage-encryption",
   "version": "1.0.15",
-  "description": "",
+  "description": "Encrypt your client storage (available for TS & JS)",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
   "files": [
@@ -17,7 +17,12 @@
     "encrypt local storage",
     "encrypt session storage",
     "storage encryption",
-    "encrypt"
+    "encrypt",
+    "front security",
+    "encryption",
+    "angular",
+    "react",
+    "security"
   ],
   "author": "Nour KAROUI",
   "license": "MIT",

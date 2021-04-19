@@ -31,12 +31,12 @@ npm i storage-encryption
 
 ## How it works
 
-* **The constructor of EncryptedStorage takes two arguments:**
+* **The constructor of EncryptStorage takes two arguments:**
     * **secret**(required): the secret key (a string) that we'll use in the encryption
     * **storage**(optional): localStorage / sessionStorage.
      storage is localStorage by default.
      
-* **Methods provided by encryptedStorage:**
+* **Methods provided by encryptStorage:**
     * **encrypt**(storage_key: string, data: any): void
     * **decrypt**(storage_key: string): any
     * **remove**(storage_key: string): void

@@ -28,6 +28,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +82,9 @@
       <workItem from="1614856833915" duration="68000" />
       <workItem from="1614884934207" duration="315000" />
       <workItem from="1614931131586" duration="163000" />
-      <workItem from="1615201449363" duration="1331000" />
+      <workItem from="1615201449363" duration="2575000" />
+      <workItem from="1615227543076" duration="597000" />
+      <workItem from="1618837355232" duration="489000" />
     </task>
     <servers />
   </component>

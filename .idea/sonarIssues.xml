@@ -88,7 +88,37 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../test/test/e2e/protractor.conf.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../test/test/src/app/app.component.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../test/test/src/app/app.component.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../../microservices/ticketing/common/package.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../microservices/ticketing/common/src/events/order-cancelled-event.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../microservices/ticketing/common/src/events/order-created-event.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../microservices/ticketing/common/src/events/subjects.ts">
           <value>
             <set />
           </value>
@@ -103,12 +133,87 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../../microservices/ticketing/nats-test/src/events/order-created-listener.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../microservices/ticketing/nats-test/src/listener.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../microservices/ticketing/orders/src/__mocks__/nats-wrapper.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../microservices/ticketing/orders/src/app.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../microservices/ticketing/orders/src/event/listeners/queue-group-name.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../microservices/ticketing/orders/src/event/listeners/ticket-created-listener.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../microservices/ticketing/orders/src/event/listeners/ticket-updated-listener.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../microservices/ticketing/orders/src/event/publishers/order-cancelled-publisher.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../microservices/ticketing/orders/src/event/publishers/order-created-publisher.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../microservices/ticketing/orders/src/index.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../../microservices/ticketing/orders/src/models/order.ts">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../../microservices/ticketing/orders/src/models/ticket.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../microservices/ticketing/orders/src/routes/__test__/new.test.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../microservices/ticketing/orders/src/routes/add-ticket.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../microservices/ticketing/orders/src/routes/delete.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../microservices/ticketing/orders/src/routes/new.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../microservices/ticketing/orders/src/test/setup.ts">
           <value>
             <set />
           </value>
